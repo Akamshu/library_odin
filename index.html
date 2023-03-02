@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Library</title>
+    <title>OdinLibrary</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="shortcut icon" href="fac.png" />
     <script
       src="https://kit.fontawesome.com/4c536a6bd5.js"
       crossorigin="anonymous"
@@ -21,11 +21,11 @@
   <body>
     <header class="header">
       <div class="container">
-        <h1>library</h1>
+        <h1>The Odinlibrary</h1>
         <nav>
           <div class="lds-dual-ring active" id="loadingRing"></div>
           <div class="logged-out" id="loggedOut">
-            <button class="btn" id="logInBtn">Log in</button>
+            <button class="btn" id="logInBtn">KponkiusDev</button>
           </div>
           <div class="logged-in" id="loggedIn">
             <button class="btn" id="accountBtn">Account</button>
@@ -44,9 +44,9 @@
         <script>
           document.write(new Date().getFullYear())
         </script>
-        michalosman
+        KponkiusDev
       </p>
-      <a href="https://github.com/michalosman" target="_blank">
+      <a href="https://github.com/akamshu" target="_blank">
         <i class="fab fa-github"></i
       ></a>
     </footer>
@@ -82,7 +82,7 @@
           <label for="is-read">Have you read it?</label>
           <input class="checkbox" type="checkbox" id="isRead" />
         </div>
-        <button class="btn btn-light-green" type="submit">Submit</button>
+        <button class="btn btn-light-green" type="submit">Add Book</button>
       </form>
     </div>
     <div class="modal" id="accountModal"></div>
@@ -94,14 +94,17 @@
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
     <script>
       const firebaseConfig = {
-        apiKey: 'AIzaSyBv30hELJ-tYN-kLoFFsWmD9az7TNqMNec',
-        authDomain: 'library-ba067.firebaseapp.com',
-        projectId: 'library-ba067',
-        storageBucket: 'library-ba067.appspot.com',
-        messagingSenderId: '915404085981',
-        appId: '1:915404085981:web:c5a384ca4340b4b7e39934',
+        apiKey: "AIzaSyC5M-Rl13yjzP7vhHsn24pHbQvAGfSYHRA",
+        authDomain: "kponks.firebaseapp.com",
+        projectId: "kponks",
+        storageBucket: "kponks.appspot.com",
+        messagingSenderId: "370977521331",
+        appId: "1:370977521331:web:ece107c4ebe85f336b3ac6",
+        measurementId: "G-95EDFDFTB9"
       }
       firebase.initializeApp(firebaseConfig)
     </script>
   </body>
 </html>
+
+
